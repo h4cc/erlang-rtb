@@ -1,0 +1,9 @@
+{application, robot,
+ [
+  {description, "Real Time Battle Bot in Erlang"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, { sighandler_app, []}},
+  {env, []}
+ ]}.
